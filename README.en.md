@@ -79,7 +79,7 @@
 - Chinese/English switching with restart confirmation.
 ### zh-dark19
 - First pinyin search, background-limited scan.
-### zh-dark18
+### zh-dark18 ❤️ (relatively stable)
 - About page adds thanks to the Furries localization.
 ### zh-dark17 ~ zh-dark16
 - Theme now shows a restart menu after pressing A; repeated A can trigger it; the reddish tone was slightly pulled back after enhancing dark red.
@@ -91,7 +91,7 @@
 - K palette experiment (briefly replaced slot 6, later restored retro yellow and split it into a separate option).
 ### zh-dark12
 - First "retro yellow" color grade.
-### zh-dark11
+### zh-dark11 ❤️ (relatively stable)
 - About page adds STEVE 没有冬, version, and time; a confirmed-stable rollback version.
 
 ## zh-dark1 ~ zh-dark10 (Early foundation)
