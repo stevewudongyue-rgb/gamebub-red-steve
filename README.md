@@ -1,5 +1,7 @@
 # Game Bub Rev4 zh-dark（red·steve）版本说明
 
+**[中文](README.md) · [English](README.en.md)**
+
 > 基于官方 [Game Bub](https://github.com/elipsitz/gamebub) v1.0.2（提交 `e779b7c`）的中文定制固件。
 >
 > 本仓库**仅公开发布版本更新说明**，无需登录 GitHub 即可阅读。固件刷机包不在此处提供。
