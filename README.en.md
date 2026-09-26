@@ -94,10 +94,6 @@
 ### zh-dark11
 - About page adds STEVE 没有冬, version, and time; a confirmed-stable rollback version.
 
----
-
-*In the beginning, this was just a UI designer who had never used an AI tool.*
-
 ## zh-dark1 ~ zh-dark10 (Early foundation)
 ### zh-dark10
 - Fixed missing refresh after natural input, page-switch display state, and the Chinese-directory-limit hint.
@@ -113,6 +109,10 @@
 - Candidate fix for the core-load crash via stack space and stack-overflow diagnostics.
 ### zh-dark3 ~ zh-dark1
 - Chinese and dark-interface experiments on the landscape official baseline; handled early boot, Chinese font, and background issues.
+
+---
+
+*In the beginning, this was just a UI designer who had never used an AI tool.*
 
 ---
 
