@@ -29,7 +29,7 @@
 
 ## zh-dark27 ~ zh-dark33
 
-### zh-dark33
+### zh-dark33 ❤️ (relatively stable)
 - Thumbnail low-memory fallback handling.
 - Per-image independent position / scale / layer stored.
 - Rotation selection inside the large preview; cohesive UI sound effects; background conversion tool.
