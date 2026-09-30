@@ -11,7 +11,21 @@
 ## Official Baseline
 - **v1.0.2**: Official release; this custom series is derived from it (English UI, official themes, official sounds and wallpaper logic).
 
-## zh-dark35 (Latest)
+## zh-dark36c (Latest · UI-fix test build)
+
+⚠️ **This is a test build, not yet verified on real hardware.** What changed:
+
+1. **No more overlapping menus**: In-game, pressing Home then the power button no longer stacks two menus on top of each other; after closing the power menu, the previous page still works (same for the filter page and the button-guide page).
+2. **Current filter shown with a red dot**: In color correction, the active filter now shows a small centered red dot under its name (replacing the confusing asterisk); the dot doesn't appear while browsing other filters and only updates after pressing A successfully applies one.
+3. **Clearer brightness hint**: The button-guide page now uses larger speaker +/− icons for brightness, making the Home + volume shortcut obvious at a glance.
+4. **Test builds are clearly marked**: The About page shows an "experimental" badge and the actual build date (version 1.0.2-zh-dark.36c), so test builds can no longer be confused with stable releases.
+
+**Unchanged:**
+- Game cores and system data are byte-for-byte identical to the official release.
+- Save/settings area untouched (settings and wallpaper positions are kept after flashing).
+- No Chis cartridge fixes included.
+
+## zh-dark35
 
 - **Scanline filter**: Added a 10th in-game filter, "Scanlines" (retro LCD row darkening, fixed strength 6/15, applied after color correction); the FPGA side adds a `ScanlineFilter` module and control register 0x1018; the MCU side adds `set_scanline` / `configure_filter`.
 - ⚠️ This build's UF2 still bundles the official bitstream, so selecting "Scanlines" has no visual effect yet (no crash/error); it will take effect with a future bitstream build.
