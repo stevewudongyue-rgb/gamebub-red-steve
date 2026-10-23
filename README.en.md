@@ -11,7 +11,22 @@
 ## Official Baseline
 - **v1.0.2**: Official release; this custom series is derived from it (English UI, official themes, official sounds and wallpaper logic).
 
-## zh-dark36c (Latest · UI-fix test build)
+## zh-dark37.10 (Latest · Stable release)
+
+✅ **Verified on real hardware by the owner; confirmed as a stable release.** What changed:
+
+1. **Wallpaper-preview crash fixed**: On real hardware, entering the preview peaks at ~68KB of memory (new preview image 29KB + old image not yet released, another 29KB + scene vector 9.6KB + decode transient) — insufficient memory caused the crash. Fix: **drop the old image first, then decode the new one**, cutting the peak by one 29KB allocation (visuals unchanged).
+2. **Upstream v1.1 beta fixes**: No full base swap; only 2 official fixes were cherry-picked (RTC weekday offset, GBA cart config override). No new dependencies; UI visuals unchanged.
+
+**Unchanged:**
+- Game cores and system data remain on the official base logic — no full base swap.
+- The frozen 37 release artifact is untouched.
+
+**Known issues (honest list):**
+- ~22 seconds to enter a game (mostly SD card reading); wallpaper position table capped at 40 entries; a possible one-frame flash when entering/leaving the preview.
+- Boundaries unchanged: no flashing on your behalf, no writing cartridges.
+
+## zh-dark36c (UI-fix test build)
 
 ⚠️ **This is a test build, not yet verified on real hardware.** What changed:
 
